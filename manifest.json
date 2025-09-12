@@ -1,0 +1,21 @@
+{
+  "name": "แอปช่วยดูแลต้นไม้",
+  "short_name": "รักษ์โลก",
+  "description": "แอปพลิเคชันเพื่อช่วยในการปลูกและดูแลต้นไม้",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196F3",
+  "icons": [
+    {
+      "src": "https://avatars.githubusercontent.com/u/108340798?s=200&v=4",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://avatars.githubusercontent.com/u/108340798?s=200&v=4",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
