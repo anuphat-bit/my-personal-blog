@@ -34,4 +34,12 @@
   <body class="bg-emerald-50">
     <div id="root"></div>
   </body>
+  <link rel="manifest" href="/manifest.json">
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/service-worker.js');
+    });
+  }
+</script>
 </html>
